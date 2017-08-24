@@ -1,4 +1,4 @@
-AdapSwAGPlugin - a Eclipse plugin for generating adaptive product models from models specified in CVL
+AdapSwAGPlugin - an Eclipse plugin for generating adaptive product models from models specified in CVL
 ====================================================================================================
 
 1. Introduction
