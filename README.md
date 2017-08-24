@@ -12,7 +12,7 @@ and executable code from the adaptive product model. These modules are integrate
 <img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin.png" alt="Mountain View" style="width:304px;height:228px;">
 
 <h1>2. Installation</h1>
-In order to install the plugin, it is simple to copy the jar file in the "pluging" directory. 
+In order to install the plugin, it is simple to copy the jar file in the "pluging" directory into the plugin directory of the Eclipse folder. 
 <h1>3. Utilisation</h1>
 <h2>3.1. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
