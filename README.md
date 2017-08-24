@@ -9,6 +9,7 @@ AdapSwAGPlugin - an Eclipse plugin for generating adaptive product models from m
 
 3. Utilisation
 
-4. Exemple
+4. Example
+In the directory Example, we propovide two test collections to vefiry how to the plugin performs.
 
 
