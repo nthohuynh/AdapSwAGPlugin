@@ -1,0 +1,54 @@
+
+import ACME;
+
+System getSystem(Component this) :
+ 	eContainer;
+ 
+List[Component] getComponentList(System this) : 
+	componentDeclaration.typeSelect(Component);
+
+List[Representation] getRepresentations(Component this) :
+	representations.typeSelect(Representation);
+
+List[System] getSystems(Representation this) :
+	systems.typeSelect(System);
+
+List[Property] getProperties(Component this) :
+	property.typeSelect(Property);
+
+List[Port] getPorts(Component this) :
+	ports.typeSelect(Port);
+	
+List[Connector] getConnectors(System this) :
+	connectorDeclaration.typeSelect(Connector);
+		
+List[Attachment] getAttachments(System this) :
+	attachement.typeSelect(Attachment);
+	
+List[Binding] getBinding(System this) :
+	binding.typeSelect(Binding);
+	
+String getCompSrc(Binding this) : 
+	compSrc;
+	
+String getPortSrc(Binding this) : 
+	portSrc;
+	
+String getPortDest(Binding this) : 
+	portDest;	
+	
+String getCompDest(Binding this) : 
+	compDest;	
+	
+	
+String getRole(Attachment this) :
+	role;
+	
+String getComp(Attachment this) :
+   	comp;
+
+String getCon(Attachment this) :
+   	con;	
+   	
+ String getPort(Attachment this) :
+   	port;

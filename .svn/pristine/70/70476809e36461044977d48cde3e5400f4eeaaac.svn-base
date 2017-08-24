@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            name="Sample Category"
+            id="AdapSwAGPlugin.commands.category">
+      </category>
+      <command
+            name="Validate Resolution Model"
+            categoryId="AdapSwAGPlugin.commands.category"
+            id="AdapSwAGPlugin.commands.sampleCommand">
+      </command>
+      <command
+            name="Generate Adaptive Product Model"
+            categoryId="AdapSwAGPlugin.commands.category"
+            id="AdapSwAGPlugin.commands.generate">
+      </command>
+      <command
+            name="Generate Executable Code"
+            categoryId="AdapSwAGPlugin.commands.category"
+            id="AdapSwAGPlugin.commands.generatecode">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="AdapSwAGPlugin.commands.sampleCommand"
+            class="adapswagplugin.handlers.VerificationHandler">
+      </handler>
+      <handler
+            commandId="AdapSwAGPlugin.commands.generate"
+            class="adapswagplugin.handlers.GenerationHandler">
+      </handler>
+      <handler
+            commandId="AdapSwAGPlugin.commands.generatecode"
+            class="adapswagplugin.handlers.CodeGenerationHandler">
+      </handler>   
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="AdapSwAGPlugin.commands.sampleCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+7"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      
+      <key
+            commandId="AdapSwAGPlugin.commands.generate"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+8"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+      <key
+            commandId="AdapSwAGPlugin.commands.generatecode"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+9"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="AdapSwAG tools"
+               mnemonic="M"
+               id="AdapSwAGPlugin.menus.sampleMenu">
+            <command
+                  commandId="AdapSwAGPlugin.commands.sampleCommand"
+                  mnemonic="V"
+                  id="AdapSwAGPlugin.menus.sampleCommand">
+            </command>
+            <command
+                  commandId="AdapSwAGPlugin.commands.generate"
+                  mnemonic="G"
+                  id="AdapSwAGPlugin.menus.generate">
+            </command>
+             <command
+                  commandId="AdapSwAGPlugin.commands.generatecode"
+                  mnemonic="E"
+                  id="AdapSwAGPlugin.menus.generatecode">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+         <toolbar
+               id="AdapSwAGPlugin.toolbars.sampleToolbar">
+            <command
+                  commandId="AdapSwAGPlugin.commands.sampleCommand"
+                  icon="icons/sample.gif"
+                  tooltip="Say hello world"
+                  id="AdapSwAGPlugin.toolbars.sampleCommand">
+            </command>
+            <command
+                  commandId="AdapSwAGPlugin.commands.generate"
+                  icon="icons/sample.gif"
+                  tooltip="Say hello world"
+                  id="AdapSwAGPlugin.toolbars.generate">
+            </command>
+            <command
+                  commandId="AdapSwAGPlugin.commands.generatecode"
+                  icon="icons/sample.gif"
+                  tooltip="Say hello world"
+                  id="AdapSwAGPlugin.toolbars.generatecode">
+            </command>
+         </toolbar>
+      </menuContribution>
+   </extension>
+
+</plugin>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/acme.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.core.resources_3.7.101.v20120125-1505.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.edit_2.10.1.v20150123-0452.jar"/>
+	<classpathentry kind="lib" path="libs/cvl.jar"/>
+	<classpathentry kind="lib" path="libs/com.ibm.icu_52.1.1.v201501240615.jar"/>
+	<classpathentry kind="lib" path="libs/org.antlr.runtime_3.2.0.v201101311130.jar"/>
+	<classpathentry kind="lib" path="libs/org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.mwe.core_1.3.4.v201409021027.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.mwe.utils_1.3.4.v201409021027.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.emf.mwe2.runtime_2.7.0.v201409021027.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.xpand_2.0.0.v201406030414.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.xtend_2.0.0.v201406030414.jar"/>
+	<classpathentry kind="lib" path="libs/org.eclipse.xtend.typesystem.emf_2.0.0.v201406030414.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

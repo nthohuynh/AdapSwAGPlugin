@@ -1,0 +1,14 @@
+source.. = src/
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/,\
+               libs/acme.jar,\
+               libs/cvl.jar,\
+               libs/org.eclipse.core.resources_3.7.101.v20120125-1505.jar,\
+               libs/org.eclipse.emf.common_2.10.1.v20150123-0348.jar,\
+               libs/org.eclipse.emf.ecore_2.7.0.v20120127-1122.jar,\
+               libs/org.eclipse.emf.ecore.xmi_2.10.2.v20150123-0348.jar,\
+               libs/org.eclipse.emf.edit_2.10.1.v20150123-0452.jar
+jars.compile.order = .
