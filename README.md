@@ -19,7 +19,6 @@ Example:
 ```
 cp /plugin/AdapSwAGPlugin_1.0.0.201707091449.jar eclipse/plugins/
 ```
-
 </br>
 Finally, restart Eclipse
 </br>
