@@ -16,6 +16,8 @@ In order to install the plugin, it is simple to copy the jar file in the "plugin
 
 Example: cp /plugin/AdapSwAGPlugin_1.0.0.201707091449.jar eclipse/plugins/
 
+Restart Eclipse
+
 <h1>3. Utilisation</h1>
 <h2> 3.1. Specifying CVL model using EMF Editor </h2>
 The extended CVL metamodel is placed in the metamodel directory. You can reuse this model to create your variability models from Eclipse EMF Editor.
