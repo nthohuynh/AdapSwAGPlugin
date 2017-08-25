@@ -16,12 +16,15 @@ In order to install the plugin, it is simple to copy the jar file in the "plugin
 </br>
 Example: cp /plugin/AdapSwAGPlugin_1.0.0.201707091449.jar eclipse/plugins/
 </br>
-Finally, Restart Eclipse
+Finally, restart Eclipse
 </br>
 We tested this plugin with Eclipse Luna 4.4.2.
 
 <h1>3. Utilisation</h1>
-<h2> 3.1. Specifying CVL model using EMF Editor </h2>
+In order to use this tool, you should have three models: the variability model, the resolution model, and the base model. The first version of this tool support the base model specified only with ACME metamodel.
+
+<h2> 3.1. Specifying CVL model and base model using EMF Editor </h2>
+<h3> Specifying the variability model and the resolution model by using CVL metamodel </h3>
 The extended CVL metamodel is placed in the metamodel directory. You can reuse this model to create your variability models from Eclipse EMF Editor.
 
 <img src="screenshot/eclipseplugin3.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
@@ -31,6 +34,10 @@ You search the class VPackage in the metamodel, right click on it, and select Cr
 <img src="screenshot/eclipseplugin4.png" lign="center" alt="Mountain View" style="width:304px;height:228px;">
 
 You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model such as VSpecs, VariationPoints, Constraints.
+
+Similar to the specification of the variability model, the resolution model is created as well, but elements specified in the resolution model are VSpecResolutions. 
+
+<h3>Specifying the base model using ACME metamodel</h3>
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
