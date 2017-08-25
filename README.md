@@ -38,6 +38,8 @@ You open the file with Simple Reflective Ecore Model Editor. This editor allows 
 Similar to the specification of the variability model, the resolution model is created as well, but elements specified in the resolution model are VSpecResolutions. 
 
 <h3>Specifying the base model using ACME metamodel</h3>
+In the metamodel directory, we provide an ACME metamodel that is used to create the base model.
+The root element in the base model is System that contains Component and Connector (Binding, Attachment).
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
