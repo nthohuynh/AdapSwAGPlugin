@@ -24,7 +24,7 @@ You search the class VPackage in the metamodel, right click on it, and select Cr
 
 <img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin4.png" lign="center" alt="Mountain View" style="width:304px;height:228px;">
 
-You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model.
+You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model such as VSpecs, VariationPoints, Constraints.
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
