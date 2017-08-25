@@ -17,11 +17,11 @@ In order to install the plugin, it is simple to copy the jar file in the "plugin
 <h2> 3.1. Specifying CVL model using EMF Editor </h2>
 The extended CVL metamodel is placed in the metamodel directory. You can reuse this model to create your variability models from Eclipse EMF Editor.
 
-<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin3.png" alt="Mountain View" style="width:304px;height:228px;">
+<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin3.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
 
 You search the class VPackage in the metamodel, right click on it, and select Create Dynamic Instance. A new window allows you to set the file name of the variability model and its directory.  
 
-<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin4.png" alt="Mountain View" style="width:304px;height:228px;">
+<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin4.png" lign="center" alt="Mountain View" style="width:304px;height:228px;">
 
 You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model.
 
