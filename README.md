@@ -15,9 +15,15 @@ and executable code from the adaptive product model. These modules are integrate
 In order to install the plugin, it is simple to copy the jar file in the "pluging" directory into the plugin directory of the Eclipse folder. We have tested with Eclipse Luna 4.4.2.
 <h1>3. Utilisation</h1>
 <h2> 3.1. Specifying CVL model using EMF Editor </h2>
+The extended CVL metamodel is placed in the metamodel directory. You can reuse this model to create your variability models from Eclipse EMF Editor.
+
 <img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin3.png" alt="Mountain View" style="width:304px;height:228px;">
 
+You search the class VPackage in the metamodel, right click on it, and select Create Dynamic Instance. A new window allows you to set the file name of the variability model and its directory.  
+
 <img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin4.png" alt="Mountain View" style="width:304px;height:228px;">
+
+You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model.
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
