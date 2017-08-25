@@ -28,8 +28,10 @@ You open the file with Simple Reflective Ecore Model Editor. This editor allows 
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
-
+</br>
 Here, we provide a simple interface that allows to point two file of the variability model and its the corresponding resolution one.
+</br>
+The results of the validation activity is a message that indicates where conflicts need to be corrected.
 
 <img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin2.png" alt="Mountain View" style="width:304px;height:228px;">
 
