@@ -12,11 +12,12 @@ and executable code from the adaptive product model. These modules are integrate
 <img src="screenshot/eclipseplugin.png" alt="Mountain View" style="width:304px;height:228px;">
 
 <h1>2. Installation</h1>
-In order to install the plugin, it is simple to copy the jar file in the "pluging" directory of the project into the plugin directory of the Eclipse folder. We have tested this plugin with Eclipse Luna 4.4.2.
-
+In order to install the plugin, it is simple to copy the jar file in the "pluging" directory of the project into the plugin directory of the Eclipse folder. 
+</br>
 Example: cp /plugin/AdapSwAGPlugin_1.0.0.201707091449.jar eclipse/plugins/
-
-Restart Eclipse
+Finally, Restart Eclipse
+</br>
+We tested this plugin with Eclipse Luna 4.4.2.
 
 <h1>3. Utilisation</h1>
 <h2> 3.1. Specifying CVL model using EMF Editor </h2>
