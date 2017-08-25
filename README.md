@@ -15,7 +15,9 @@ and executable code from the adaptive product model. These modules are integrate
 In order to install the plugin, it is simple to copy the jar file in the "pluging" directory into the plugin directory of the Eclipse folder. We have tested with Eclipse Luna 4.4.2.
 <h1>3. Utilisation</h1>
 <h2> 3.1. Specifying CVL model using EMF Editor </h2>
+<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin3.png" alt="Mountain View" style="width:304px;height:228px;">
 
+<img src="https://github.com/nthohuynh/AdapSwAGPlugin/blob/master/screenshot/eclipseplugin4.png" alt="Mountain View" style="width:304px;height:228px;">
 
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
