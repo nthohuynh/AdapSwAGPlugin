@@ -15,6 +15,7 @@ and executable code from the adaptive product model. These modules are integrate
 In order to install the plugin, it is simple to copy the jar file in the "pluging" directory of the project into the plugin directory of the Eclipse folder. 
 </br>
 Example: cp /plugin/AdapSwAGPlugin_1.0.0.201707091449.jar eclipse/plugins/
+</br>
 Finally, Restart Eclipse
 </br>
 We tested this plugin with Eclipse Luna 4.4.2.
