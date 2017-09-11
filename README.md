@@ -54,7 +54,10 @@ The results of the validation activity is a message that indicates where conflic
 <img src="screenshot/eclipseplugin2.png" alt="Mountain View" style="width:304px;height:228px;">
 
 <h2>3.3. Generating adaptive product model </h2> 
+In order to generate the adaptive product model from the models specified from the design time, you select the second submenu in the AdapSwAG tool menu. A new windows allows you to input the CVL files (the variability, the base and the resolution models). The directory textbox allows to identify the location the generated file (the product model) stored.
 
+
+<img src="screenshot/eclipseplugin5.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
 <h2>3.4. Generating partially executable code </h2> 
 
 
