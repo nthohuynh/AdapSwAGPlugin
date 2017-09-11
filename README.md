@@ -53,21 +53,21 @@ The results of the validation activity is a message that indicates where conflic
 
 <img src="screenshot/eclipseplugin2.png" alt="Mountain View" style="width:304px;height:228px;">
 
-Some error messages could arise when validating the conformity of the resolution model with the variability model.
+Some error messages could arise when validating the conformity of the resolution model with the variability model. The tool can detect the errors in the resolution model as follows:
 ```
 "The VSpecResolution root is not selected "
 ```
 ```
-"Error: Conflict with impliedByParent constraint in "
+"Error: Conflict with impliedByParent constraint in <VSpecResolution>"
 ```
 ```
-"Error: Conflict with multiplicity constraint in "
+"Error: Conflict with multiplicity constraint in <VSpecResolution>"
 ```
 ```
-"Error: Conflict with implies constraint at  "
+"Error: Conflict with implies constraint in <VSpecResolution>"
 ```
 ```
-"Error: Conflict with excludes constraint at  "
+"Error: Conflict with excludes constraint in <VSpecResolution>"
 ```
 
 <h2>3.3. Generating adaptive product model </h2> 
