@@ -53,6 +53,23 @@ The results of the validation activity is a message that indicates where conflic
 
 <img src="screenshot/eclipseplugin2.png" alt="Mountain View" style="width:304px;height:228px;">
 
+Some error messages could arise when validating the conformity of the resolution model with the variability model.
+```
+"The VSpecResolution root is not selected "
+```
+```
+"Error: Conflict with impliedByParent constraint in "
+```
+```
+"Error: Conflict with multiplicity constraint in "
+```
+```
+"Error: Conflict with implies constraint at  "
+```
+```
+"Error: Conflict with excludes constraint at  "
+```
+
 <h2>3.3. Generating adaptive product model </h2> 
 In order to generate the adaptive product model from the models specified from the design time, you select the second submenu in the AdapSwAG tool menu. A new windows allows you to input the CVL files (the variability, the base and the resolution models). The directory textbox allows to identify the location the generated file (the product model) stored.
 
@@ -66,6 +83,6 @@ In order to generate partially the executable code, the text generation is used.
 
 <h1>4. Example</h1>
 
-In the directory Example, we provide two test collections to vefiry how to the plugin performs.
+In the directory Example, we provide two test collections to vefiry how to the plugin performs. 
 
 
