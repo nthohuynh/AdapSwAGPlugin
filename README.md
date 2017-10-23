@@ -46,9 +46,9 @@ The root element in the base model is System that contains Component and Connect
 <h2>3.2. Validating the resolution model </h2> 
 The first menu item in the AdapSaWG tools allows openning a window for verifying a resolution model conforming to a variability model. 
 </br>
-Here, we provide a simple interface that allows to point two file of the variability model and its the corresponding resolution one.
+Here, we provide a simple interface that allows to point the variability model and its the corresponding resolution one.
 </br>
-The results of the validation activity is a message that indicates where conflicts need to be corrected.
+The result of the validation activity is a message that indicates where conflicts need to be corrected if there are some errors or the resolution model is correct with the variability model.
 
 <img src="screenshot/eclipseplugin2.png" alt="Mountain View" style="width:304px;height:228px;">
 
@@ -75,10 +75,12 @@ In order to generate the adaptive product model from the models specified from t
 
 <img src="screenshot/eclipseplugin5.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
 <h2>3.4. Generating partially executable code </h2> 
+
 In order to generate partially the executable code, the text generation is used. It uses the generated product model in the privious section as its input. The location where generated code is placed is indicated in the directory textbox.
 
 <img src="screenshot/eclipseplugin6.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
 
+In the first version of the generation module, the directory containing the generated code consists of some subdirectory. Each contains a Java class that represents the implementation of the corresponding component.
 
 <h1>4. Example</h1>
 
