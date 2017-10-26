@@ -31,16 +31,16 @@ The extended CVL metamodel is placed in the metamodel directory. You can reuse t
 
 <img src="screenshot/eclipseplugin3.png" alt="Mountain View" align="middle" style="width:304px;height:228px;">
 
-You search the class VPackage in the metamodel, right click on it, and select Create Dynamic Instance. A new window allows you to set the file name of the variability model and its directory.  
+You find the VPackage class in the metamodel, right click on it, and select Create Dynamic Instance. A new window allows you to set the file name of the variability model and its directory.  
 
 <img src="screenshot/eclipseplugin4.png" lign="center" alt="Mountain View" style="width:304px;height:228px;">
 
-You open the file with Simple Reflective Ecore Model Editor. This editor allows you to create elements in the variability model such as VSpecs, VariationPoints, Constraints.
+You open the file with Simple Reflective Ecore Model Editor that allows you to create elements in the variability model such as VSpecs, VariationPoints, Constraints.
 
 Similar to the specification of the variability model, the resolution model is created as well, but elements specified in the resolution model are VSpecResolutions. 
 
 <h3>Specifying the base model using ACME metamodel</h3>
-In the metamodel directory, we provide an ACME metamodel that is used to create the base model.
+In the metamodel directory, we provide an ACME metamodel that is reused to create the base model.
 The root element in the base model is System that contains Component and Connector (Binding, Attachment).
 
 <h2>3.2. Validating the resolution model </h2> 
