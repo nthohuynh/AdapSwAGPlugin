@@ -82,7 +82,7 @@ In order to generate partially the executable code, the text generation is used.
 
 In the first version of the generation module, the directory containing the generated code consists of some subdirectory. Each contains a Java class that represents the implementation of the corresponding component.
 
-The generated code example is shown in the src-gen in the project.
+The generated code example is shown in the src-gen directory in the project.
 
 <h1>4. Example</h1>
 
