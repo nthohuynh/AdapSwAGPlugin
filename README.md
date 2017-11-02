@@ -22,7 +22,7 @@ Finally, restart Eclipse
 </br>
 We tested this plugin with Eclipse Luna 4.4.2.
 
-<h1>3. Utilisation</h1>
+<h1>3. Utilization</h1>
 In order to use this tool, you should have three models: the variability model, the resolution model, and the base model. The first version of this tool support the base model specified only with ACME metamodel.
 
 <h2> 3.1. Specifying CVL model and base model using EMF Editor </h2>
