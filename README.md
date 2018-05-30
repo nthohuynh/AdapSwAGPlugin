@@ -88,4 +88,4 @@ The generated code example is shown in the src-gen directory in the project.
 
 In the directory Example, we provide a test set to vefiry how to the plugin performs. 
 
-
+<a href="https://github.com/nthohuynh/AdapSwAGPlugin/tree/master/metamodel"> Bai tap </a>
